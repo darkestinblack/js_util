@@ -1,8 +1,7 @@
 'use strict';
 
 /**
- * @description retry function
- * rerun func until reach max times or get the expected result
+ * @description rerun func until reach max times or get the expected result
  * @param {Function} func 
  * @param {Object} args 
  * @param {Array} flapArray 
