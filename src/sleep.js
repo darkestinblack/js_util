@@ -3,7 +3,7 @@
  * @param {Number} seconds
  */
 async function sleep(seconds) {
-  return await new Promise((reslove,reject) => setTimeout(reslove, seconds * 1000));
+  return await new Promise((reslove) => setTimeout(reslove, seconds * 1000));
 }
 
 //test
