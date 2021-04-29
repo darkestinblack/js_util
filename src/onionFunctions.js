@@ -1,5 +1,4 @@
 'use strict'
-
 /**
  * @description run functions like onion
  * @param {Number} seconds
@@ -25,20 +24,20 @@ function onionFunctions() {
 }
 
 //test onionFunctions
-const app=onionFunctions(); 
-app.use( (next) =>{
-    console.log(1);    
-    next();
-    console.log(-1);
-});
-app.use((next)=> {    
-    console.log(2);
-    next();
-    console.log(-2);
-});
-app.use((next)=>  {
-    console.log(3);
-    next();
-    console.log(-3);
-});
-app.run();
+// const app=onionFunctions(); 
+// app.use( (next) =>{
+//     console.log(1);    
+//     next();
+//     console.log(-1);
+// });
+// app.use((next)=> {    
+//     console.log(2);
+//     next();
+//     console.log(-2);
+// });
+// app.use((next)=>  {
+//     console.log(3);
+//     next();
+//     console.log(-3);
+// });
+// app.run();

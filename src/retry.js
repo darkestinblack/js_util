@@ -52,4 +52,5 @@ async function retry(func, args, flapArray = [], times = 10) {
 // retry(11, { a: { b: { c: { d: 1 } } } }, ['a', 'b', 'c', 'd', 1]).then(res => console.log(res));
 // retry(args => args, { a: { b: { c: { d: 1 } } } }, ['a', 'b', 'c', 'd', 1]).then(res => console.log(res));
 // retry(args => args, { a: 'ss'}, ['a', 'ss']).then(res => console.log(res));
-// setTimeout(() =>console.log(11),500);
+// setTimeout(() =>console.log(11),500);         
+ 
